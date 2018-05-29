@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6F3C3B60-3D2D-4DA7-A513-B9CFEEC62A74}</ProjectGuid>
+    <ProjectGuid>{8AE570AC-BE18-412C-94EA-D1C77CA12921}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Robot</RootNamespace>
+    <RootNamespace>IteratorPattern</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,7 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="instruct.h" />
+    <ClInclude Include="iterator.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
